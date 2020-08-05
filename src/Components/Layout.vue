@@ -3,6 +3,7 @@
     <ServerList />
     <ServerName />
     <ChanelList />
+    <UserInfo />
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 import ServerList from './ServerList';
 import ServerName from './ServerName';
 import ChanelList from './ChanelList';
+import UserInfo from './UserInfo';
 
 export default {
   components: {
     ServerList,
     ServerName,
-    ChanelList
+    ChanelList,
+    UserInfo
   }
 };
 </script>
