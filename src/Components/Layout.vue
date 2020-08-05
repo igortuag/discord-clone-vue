@@ -1,9 +1,17 @@
 <template>
-  <div class="grid"></div>
+  <div id="grid">
+    <ServerList />
+  </div>
 </template>
 
 <script>
-export default {};
+import ServerList from './ServerList';
+
+export default {
+  components: {
+    ServerList
+  }
+};
 </script>
 
 <style scoped>
